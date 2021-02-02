@@ -1,0 +1,37 @@
+{
+    "collection": "posts",
+    "database": "realmfeed",
+    "id": "5f997d067fd9f17c89d0d3e5",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "read": true,
+            "write": false,
+            "insert": false,
+            "delete": false,
+            "search": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "alertDate": {
+                "bsonType": "date"
+            },
+            "alertSource": {
+                "bsonType": "string"
+            },
+            "alertText": {
+                "bsonType": "string"
+            },
+            "alertUrl": {
+                "bsonType": "string"
+            }
+        },
+        "title": "post"
+    }
+}
