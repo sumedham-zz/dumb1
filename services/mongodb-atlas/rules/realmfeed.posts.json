@@ -1,7 +1,6 @@
 {
     "collection": "posts",
     "database": "realmfeed",
-    "id": "5f997d067fd9f17c89d0d3e5",
     "roles": [
         {
             "name": "default",
